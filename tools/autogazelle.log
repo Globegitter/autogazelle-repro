@@ -1,0 +1,5 @@
+autogazelle: 2018/12/14 09:05:48 started server with pid 15254
+autogazelle: 2018/12/14 09:05:49 running gazelle: /usr/bin/bazel-real run //:gazelle -- -args -index=false
+autogazelle: 2018/12/14 09:06:58 running gazelle: /usr/bin/bazel-real run //:gazelle -- -args -index=false -r=false src
+autogazelle: 2018/12/14 09:07:15 running gazelle: /usr/bin/bazel-real run //:gazelle -- -args -index=false -r=false src
+autogazelle: 2018/12/14 09:08:27 running gazelle: /usr/bin/bazel-real run //:gazelle -- -args -index=false -r=false .git/objects/1d .git/objects/9f .git/objects/58 .git/objects/78 src .git/objects/50 .git/objects/e2 .git/objects/ae .git/objects/8f .

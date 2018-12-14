@@ -2,9 +2,9 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(
     name = "io_bazel_rules_go",
-    sha256 = "29b9585e396fb027461c573f6dfbfe2773f9490234a2a9a09dca0f1e0e6ac24b",
-    strip_prefix = "rules_go-e56822c37c2f3d4e6aff7937b570e9db9ab753ff",
-    url = "https://github.com/bazelbuild/rules_go/archive/e56822c37c2f3d4e6aff7937b570e9db9ab753ff.tar.gz",
+    sha256 = "ac3f9989ae4032d9d90c3c10216cf3a645cf4fb1b235fe6e196f97b62d39a95d",
+    strip_prefix = "rules_go-f9fac1f422e7e805085aed95631c28319354bf7b",
+    url = "https://github.com/bazelbuild/rules_go/archive/f9fac1f422e7e805085aed95631c28319354bf7b.tar.gz",
 )
 
 http_archive(
@@ -22,3 +22,9 @@ go_register_toolchains(nogo = "@//:nogo")
 load("@bazel_gazelle//:deps.bzl", "gazelle_dependencies", "go_repository")
 
 gazelle_dependencies()
+
+go_repository(
+    name = "com_github_rs_zerolog",
+    commit = "9cd6f6eef2d7e9041629e2dd853778a9b2abddbd",
+    importpath = "github.com/rs/zerolog",
+)
